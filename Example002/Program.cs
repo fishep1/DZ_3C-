@@ -9,7 +9,7 @@ static void distance(double x1, double y1,
 {
     double d = Math.Pow((Math.Pow(x2 - x1, 2) +
                          Math.Pow(y2 - y1, 2) +
-                         Math.Pow(z2 - z1, 2) * 1.0), 0.5);
+                         Math.Pow(z2 - z1, 2) * 1), 0.5);
                          // Фукция возведения в степень
     Console.WriteLine("Дистанция между точками: " + d);
     return;
